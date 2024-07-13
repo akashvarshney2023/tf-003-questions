@@ -1,9 +1,0 @@
-site_name: My Docs Site
-theme:
-  name: material
-markdown_extensions:
-  - codehilite:
-      guess_lang: false
-  - pymdownx.superfences
-
-
