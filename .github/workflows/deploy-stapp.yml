@@ -35,4 +35,4 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"  # This should be the root of your repository
-          output_location: "./site"  # This should match the output directory of mkdocs build
+          output_location: "./site/"  # This should match the output directory of mkdocs build
