@@ -26,7 +26,7 @@ jobs:
           pip install mkdocs mkdocs-material pygments
 
       - name: Build MkDocs Site
-        run: mkdocs build --clean
+        run: mkdocs build --clean --config-file ./mkdocs.yml
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
@@ -35,4 +35,4 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"  # This should be the root of your repository
-          output_location: "./site/"  # This should match the output directory of mkdocs build
+          output_location: "site"  # This should match the output directory of mkdocs build
