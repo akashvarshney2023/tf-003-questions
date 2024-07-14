@@ -1,3 +1,4 @@
+
 # String Data Type
 
 The `string` data type represents a sequence of characters. It is used to store textual data.

@@ -2,9 +2,6 @@ site_name: Terraform Quest
 
 theme:
   name: material
-  hide:
-  - navigation
-  - toc
   palette:
     primary: indigo
     scheme: default
@@ -19,9 +16,11 @@ theme:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
   features:
-    - navigation.footer
-    - navigation.tabs
+    #- navigation.footer
     - toc.integrate
+    - navigation.tabs
+    - navigation.tabs.sticky
+    
 
 markdown_extensions:
   - pymdownx.highlight:
