@@ -1,4 +1,5 @@
 site_name: Terraform Quest
+
 theme:
   name: material
   hide:
@@ -7,13 +8,13 @@ theme:
   palette:
     primary: indigo
     scheme: default
-    toggle: 
+    toggle:
       icon: material/brightness-7 
       name: Switch to dark mode
     #scheme: slate
     #toggle:
-     # icon: material/brightness-4
-     # name: Switch to light mode
+    # icon: material/brightness-4
+    # name: Switch to light mode
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
@@ -22,8 +23,6 @@ theme:
     - navigation.tabs
     - toc.integrate
 
-
-    
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
