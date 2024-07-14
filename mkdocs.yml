@@ -1,10 +1,43 @@
-site_name: My Docs Site
+site_name: Terraform Quest
 theme:
   name: material
+  hide:
+  - navigation
+  - toc
+  palette:
+    primary: indigo
+    scheme: default
+    toggle: 
+      icon: material/brightness-7 
+      name: Switch to dark mode
+    #scheme: slate
+    #toggle:
+     # icon: material/brightness-4
+     # name: Switch to light mode
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - toc.integrate
+
+
+    
 markdown_extensions:
-  - codehilite:
-      guess_lang: false
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tasklist
+  - pymdownx.highlight
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://linkedin.com/in/akashvarshney
 
 
