@@ -1,0 +1,54 @@
+
+site_name: Terraform Quest
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    scheme: default
+    toggle:
+      icon: material/brightness-7 
+      name: Switch to dark mode
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  features:
+    - toc.integrate
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.highlight
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://linkedin.com/in/akashvarshney
+
+nav:
+  - Home: index.md
+  - Datatypes:
+      - String: datatypes/01string.md
+      - Bool: datatypes/02bool.md
+      - Number: datatypes/03number.md
+      - List: datatypes/04list.md
+      - Set: datatypes/05set.md
+      - Map: datatypes/06map.md
+      - Object: datatypes/07object.md
+      - Tuple: datatypes/08tuple.md
+      - Any: datatypes/09any.md
+  - Functions:
+      - Flatten: functions/flatten.md
+      - Merge: functions/merge.md
+      - ZipMap: functions/zipmap.md
+      - Locals: functions/locals.md
+  - Questions: questions/
+  - Example: examples/test.md
