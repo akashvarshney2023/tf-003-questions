@@ -1,5 +1,5 @@
 
-# Terraform `dynamic` Block Tutorial
+# Terraform `dynamic`
 
 ## Introduction
 
