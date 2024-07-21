@@ -1,1 +1,4 @@
 Terraform Types and Functions = 86-95
+
+Disclaimer:
+These are not the Hashicorp Terraform official exam questions/dumps. The questions are either created from the web content of the official website or consolidated from various sources. These questions cover all the topics of the Hashicorp Terraform Associate (003) exam and once you go through these questions and their concepts, you are more than ready to ace the exam with confidence.
