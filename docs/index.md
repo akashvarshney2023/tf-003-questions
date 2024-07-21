@@ -3,28 +3,6 @@
 
 Welcome to the Terraform Tutorial and Exam Preparation Guide! This repository is designed to help Terraform developers and enthusiasts learn Terraform from scratch and prepare for the Terraform Associate (003) certification exam.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Terraform Basics](#terraform-basics)
-  - [What is Terraform?](#what-is-terraform)
-  - [Key Concepts](#key-concepts)
-  - [Writing Your First Configuration](#writing-your-first-configuration)
-- [Advanced Topics](#advanced-topics)
-  - [State Management](#state-management)
-  - [Modules](#modules)
-  - [Workspaces](#workspaces)
-  - [Provisioners](#provisioners)
-- [Terraform Associate (003) Exam](#terraform-associate-003-exam)
-  - [Exam Overview](#exam-overview)
-  - [Sample Questions and Explanations](#sample-questions-and-explanations)
-- [Additional Resources](#additional-resources)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This guide provides comprehensive tutorials and resources for learning Terraform, an open-source infrastructure as code (IaC) tool by HashiCorp. Whether you're a beginner or an experienced user, you'll find valuable content to enhance your Terraform skills and prepare for the Terraform Associate certification exam.
