@@ -1,4 +1,4 @@
-# Terraform `regex()` Function Tutorial
+# Terraform `regex()`
 
 ## Introduction
 

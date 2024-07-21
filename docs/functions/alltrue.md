@@ -1,5 +1,4 @@
-# Terraform `alltrue()` Function Tutorial
-
+# Terraform `alltrue()`
 ## Introduction
 
 The `alltrue()` function in Terraform is used to evaluate whether all elements in a given list of Boolean values are `true`. It is useful for ensuring that all conditions or checks in your Terraform configuration are satisfied.

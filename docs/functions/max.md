@@ -1,4 +1,4 @@
-# Terraform `max()` Function Tutorial
+# Terraform `max()`
 
 ## Introduction
 
