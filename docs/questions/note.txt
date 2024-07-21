@@ -1,0 +1,1 @@
+Terraform Types and Functions = 86-95
