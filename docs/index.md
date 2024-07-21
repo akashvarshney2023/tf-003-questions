@@ -1,5 +1,5 @@
 
-# Terraform Tutorial and Exam Preparation
+# Home
 
 Welcome to the Terraform Tutorial and Exam Preparation Guide! This repository is designed to help Terraform developers and enthusiasts learn Terraform from scratch and prepare for the Terraform Associate (003) certification exam.
 
