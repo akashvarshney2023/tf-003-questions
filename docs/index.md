@@ -82,7 +82,7 @@ Discover how to use provisioners to execute scripts and automate tasks as part o
 
 ### Terraform Associate (003) Exam
 
-[Check out Questions ](./questions/001.md) 
+[Check out Questions ](./questions/Other Questions/001.md) 
 #
 
 ## Additional Resources
