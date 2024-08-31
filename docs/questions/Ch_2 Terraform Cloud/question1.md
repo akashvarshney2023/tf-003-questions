@@ -15,4 +15,4 @@
 
 - **Private Module Registry:** Terraform Cloud includes a private module registry where organizations can share and manage their own Terraform modules internally, providing a centralized location for reusable configurations.
 
-- **Terraform Linting:** Terraform Cloud does not provide built-in linting features for Terraform configurations. Linting is typically handled by separate tools or integra
+- **Terraform Linting:** Terraform Cloud does not provide built-in linting features for Terraform configurations. Linting is typically handled by separate tools or integrations.
